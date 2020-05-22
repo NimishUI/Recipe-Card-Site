@@ -1,0 +1,122 @@
+body {
+	background: #DAF7F6;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	line-height: 16px;
+	color: #3B3B3B;
+}
+
+header {
+	background: #FFFFFF;
+	text-align: center;
+}
+
+h1 {
+	display: inline-block;
+	padding: 40px 0;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #F16059;
+	font-size: 48px !important;
+}
+
+header img {
+	margin-right: 16px;
+}
+
+main {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.image img {
+    float: left;
+    height: 550px;
+    width: 500px;
+}
+
+.recipe {
+    padding: 20px;
+    width: 500px;
+    height: 550px;
+    float: left;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.card {
+    margin: 10px 0px 10px 0px;
+    overflow: hidden;
+}
+
+h2 {
+    color: #F16059;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 12px;
+    padding-bottom: 4px;
+
+}
+
+.prep ,.cook ,.total {
+    float: left;
+    padding-left: 6px;
+    border: 1px black solid;
+    width: 32.33%;
+    height: 24px;
+    padding: 1px;
+}
+
+.prep img, .cook img, .total img {
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+    vertical-align: middle;
+    width: 15px;
+    height: auto;
+}
+
+p.time-details {
+   display: inline;
+   vertical-align: sub;
+   font-size: 13px;
+}
+
+p.description
+{
+    margin-bottom: 0px;
+    margin-top: 76px;
+    padding-bottom: 4px;
+}
+
+section.ingredients {
+    width: 200px;
+    float: left;
+    line-height: 20px;
+    padding-left: 2px;
+}
+
+section.directions {width: 230px;
+    float: right;
+    line-height: 20px;
+}
+
+h3 {
+    color: #F16059;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-bottom: 1px black solid;
+    border-top: 1px black solid;
+    font-weight: bold;
+}
+
+ul
+{
+    padding-left: 16px
+}
+
+ol {
+    padding-left: 14px;
+}
